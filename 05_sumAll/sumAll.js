@@ -5,7 +5,7 @@ const sumAll = function(minimum, maximum) {
     if(minimum < 0 || maximum < 0) return "ERROR";
 
     if(minimum > maximum){
-        const temp = minimum;
+        const temporary = minimum;
         minimum = maximum;
         maximum = temporary;
     }
