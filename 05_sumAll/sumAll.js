@@ -1,4 +1,4 @@
-const sumAll = function(minimum, maximum) {
+const sumAll = (minimum, maximum) => {
     // Your code here
     if(!Number.isInteger(minimum) || !Number.isInteger(maximum)) return "ERROR";
 
@@ -21,3 +21,6 @@ const sumAll = function(minimum, maximum) {
 
 // Do not edit below this line
 module.exports = sumAll;
+
+
+// correct answer 01/02/2023 

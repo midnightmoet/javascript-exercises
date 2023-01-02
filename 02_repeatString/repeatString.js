@@ -17,3 +17,5 @@ const repeatString = (word, times) => {
 
 // Do not edit below this line
 module.exports = repeatString;
+
+// correct answer 01/02/2023
